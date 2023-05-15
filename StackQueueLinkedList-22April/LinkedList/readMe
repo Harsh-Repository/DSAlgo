@@ -1,0 +1,38 @@
+What is a Linked List?
+A linked list is a data structure where the data can be accessed from any location.
+Unlike LIFO and FIFO, you can add data into any index and remove it from any index.
+You can insert data into any location of the linked list other than the front and the rear.
+The reason for the flexible access of the linked list is that it is a dynamic array.
+Dynamic array means that the linked list is an array that adjusts its size based on the number of elements.
+
+In arrays, whenever you delete values, empty slots are created.
+In the linked list, if you delete values, it shrinks so that there are no empty slots associated with it.
+One of the key features of a linked list is that you can insert/delete data without repercussions in terms of empty slots or changes to the structure of data.
+
+Types of Linked Lists:
+
+Singly Linked List:
+There is a front to the list, and every single node exists after it.
+The nodes keep track of each other the same way as in a regular stack or queue. The main difference is that you can insert and delete at any index.
+Get all the data into a stack and pop it OR Do some tricks to iterate through the list.
+
+Doubly Linked List:
+Instead of keeping track of only the value that follows, a node also keeps track of the value that precedes. There are two links to a node.
+Rather than looking at one direction, nodes look at both the directions.
+The presence of two links enables you to complete diverse operations efficiently on the data system.
+Keep track of the rear of the list.
+Start at the rear and use the rear property to go backwards through the list.
+
+You are able to move both forwards and backwards through the linked lists, which makes it more
+efficient for working with operations requiring two-way data interaction.
+
+— A linked list is a data structure where the data can be accessed from any location.
+Singly Linked List: The nodes keep track of each other, the same way as in the regular stack or queue. The main difference is that you can insert and delete at any index.
+— Doubly Linked List: Instead of keeping track of only the value that follows, a node of this list also keeps track of the value that precedes. So, there are two links to a node.
+
+Reasons to use the linked list:
+— You can insert/delete data from this list without repercussions in terms of empty slots or changes to the structure of data.
+— It is more efficient when working with operations requiring two-way data interaction.
+
+— Methods: inserts, removes, peeks, prints, etc.
+— Properties: front, rear, size, etc.
